@@ -1,0 +1,36 @@
+{
+  "name": "link-rot-fighter",
+  "version": "0.1.0",
+  "description": "fights link rot by screen capping websites",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./test.js",
+    "start": "node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mostlycarbonite/linkRotFighter.git"
+  },
+  "keywords": [
+    "link",
+    "rot",
+    "linkrot",
+    "screencap",
+    "webshot"
+  ],
+  "author": "MostlyCarbonite",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mostlycarbonite/linkRotFighter/issues"
+  },
+  "homepage": "https://github.com/mostlycarbonite/linkRotFighter#readme",
+  "dependencies": {
+    "lodash": "^3.10.1",
+    "moment": "^2.10.6",
+    "phantomjs": "^1.9.18",
+    "request": "^2.61.0",
+    "sanitize-filename": "^1.4.2",
+    "webshot": "^0.16.0",
+    "yamljs": "^0.2.3"
+  }
+}
